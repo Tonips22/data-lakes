@@ -13,3 +13,10 @@ Este proyecto busca detectar y explicar la aparición de nuevas columnas en conj
 
 1. Clonar el repositorio
 2. Instalar dependencias:
+    ```bash
+    pip install -r requirements.txt
+    ```
+3. Ejecutar el script principal:
+    ```bash
+    python src/main.py
+    ```
