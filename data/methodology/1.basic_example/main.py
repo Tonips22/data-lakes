@@ -1,9 +1,9 @@
 import pandas as pd
 
 # Load the CSV files
-original = pd.read_csv("data/1.basic_example/original.csv")
-updated = pd.read_csv("data/1.basic_example/added_column.csv")
-candidate = pd.read_csv("data/1.basic_example/candidate_table.csv")
+original = pd.read_csv("data/methodology/1.basic_example/original.csv")
+updated = pd.read_csv("data/methodology/1.basic_example/added_column.csv")
+candidate = pd.read_csv("data/methodology/1.basic_example/candidate_table.csv")
 
 print("\n📄 Original table:")
 print(original)

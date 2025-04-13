@@ -58,14 +58,14 @@ def evaluate_candidate_multiple_joins(original, updated, candidate, join_left='i
 
 def main():
     # Load the main tables
-    original = pd.read_csv("data/3.multiple_joins/original.csv")
-    updated = pd.read_csv("data/3.multiple_joins/added_column.csv")
+    original = pd.read_csv("data/methodology/3.multiple_joins/original.csv")
+    updated = pd.read_csv("data/methodology/3.multiple_joins/added_column.csv")
     
     # List of candidate table files
     candidate_files = [
-        "data/3.multiple_joins/candidate_table_1.csv",
-        "data/3.multiple_joins/candidate_table_2.csv",
-        "data/3.multiple_joins/candidate_table_3.csv"
+        "data/methodology/3.multiple_joins/candidate_table_1.csv",
+        "data/methodology/3.multiple_joins/candidate_table_2.csv",
+        "data/methodology/3.multiple_joins/candidate_table_3.csv"
     ]
     
     best_candidate_overall = None

@@ -37,14 +37,14 @@ def evaluate_candidate(original, updated, candidate, join_left='id', join_right=
 
 def main():
     # Load the main tables
-    original = pd.read_csv("data/2.compare_example/original.csv")
-    updated = pd.read_csv("data/2.compare_example/added_column.csv")
+    original = pd.read_csv("data/methodology/2.compare_example/original.csv")
+    updated = pd.read_csv("data/methodology/2.compare_example/added_column.csv")
     
     # List of candidate table filenames
     candidate_files = [
-        "data/2.compare_example/candidate_table_1.csv",
-        "data/2.compare_example/candidate_table_2.csv",
-        "data/2.compare_example/candidate_table_3.csv"
+        "data/methodology/2.compare_example/candidate_table_1.csv",
+        "data/methodology/2.compare_example/candidate_table_2.csv",
+        "data/methodology/2.compare_example/candidate_table_3.csv"
     ]
     
     best_score = -1
