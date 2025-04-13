@@ -1,2 +1,6 @@
 # Steps doc process
 DOC.md
+
+# pycache files
+__pycache__/
+*.pyc
