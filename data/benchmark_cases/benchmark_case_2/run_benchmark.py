@@ -36,4 +36,4 @@ def run_benchmark_case(case_folder):
 
 # Run for case 2
 if __name__ == "__main__":
-    run_benchmark_case("data/benchmark_case_2")
+    run_benchmark_case("data/benchmark_cases/benchmark_case_2")
